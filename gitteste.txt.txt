@@ -1,26 +1,17 @@
 versao 2
-1- O primeiro passo caso ainda não tenha criado uma pasta, é criar uma,pois essa pasta será nosso repositório local.
+1- Para clonar um projeto do repositorio do github no repositorio local, primeiro é preciso criar (enviar) um 
+projeto para a nuvem (repositorio no github).
 
-2 - No prompt de comando o git deve ser configurado,entao os seguintes comandos devem ser feitos: config --global user.name "fulano"
-config --global user.email "@fulano.com", essa configuração deve ser feita com seu nome de usuário e seu email cadastrado no GitHub.
+2 - Depois que o projeto estiver na nuvem, para clonar ele, é preciso abrir o terminal e digitar o comando:
+git clone <URL-do-repositorio>.
 
-3 -Para saber se seu email e usuario foram configurados faça o seguinte comando: git config --list (comando para windows),então verifique as 
-últimas duas linhas.
+3 - Se o comando for executado com sucesso, vai ser criada altomaticamente uma pasta com o nome do seu repositorio
+e nela estara os projetos que nele estão.
 
-4- Então o comando init deve ser usado para iniciar um repositorio local.
+4- Então é preciso volta para o terminal e entrar tanto na pasta que foi últilizada para mandar os projetos para 
+o repositorio do github e ao mesmo tempo na pasta clonada.
 
-5- Verifique o status do seu repositorio caso não ele ainda não seja monitorado,o comando add deve ser usado para
-que seja adicionado alguma coisa no repositorio.
+5- Quando estiver nas duas pasta será preciso fazer o mesmos comandos para enviar um projeto do repositorio local
+para o repositorio do github, esses comandos devem ser executados depois que as modificações forem feitas.
 
-6- Caso ainda não tenha um repositorio no GitHub crie um.
-
-7- O comando commit -m pode ser ultilizado caso o arquivo tenha sido alterado ou seja em caso de mais de uma 
-pessoa mexer no mesmo repositorio o commit ajuda para cada um entender que tipo de alterações foram feitas.
-
-8- Para conectar o repositorio local ao repositorio do github deve-se usar o seguinte comando: git remote add origin <URL-do-repositorio>
-
-9- Antes do ultima passo deve ser gerado um token no GitHub,para gera esse token primeiro as configurações devem ser acessada
-segundo acessa as configurações do desenvolvedor, depois acessa os token classicos,por fim colaca um nome aleatorio onde esta sendo 
-pedido e por fim gere o token.
-
-10- Por fim é ultilizado o comando que envia o arquivo para o GitHub git push -u origin master (ou main) 
+6- Se não for retornado nenhum problema o arquivo clonado será enviado para o repositoriodo github.
