@@ -1,0 +1,51 @@
+h1{
+    color:rgb(220, 113, 113);
+    text-align: center;
+    text-decoration-line:underline;
+    text-decoration-color:rgb(224, 141, 141) ;
+    text-shadow: 2px 2px 3px rgb(14, 13, 13);
+}
+h2{
+    color:rgb(46, 2, 25);
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color:rgb(60, 8, 25);
+    text-shadow: 2px 2px 3px rgb(242, 239, 239);
+}
+body{
+    background-image:url("https://images.vexels.com/media/users/3/120955/raw/d5a92b8ff0c05ad057e6f0db88e48472-morango-doce-e-padrao-de-chocolate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    border:15px solid rgb(191, 145, 233);
+    border-radius:7px ;
+    padding:5px ;
+    background-color: rgb(233, 159, 132);
+    width: 500px;
+    padding: 25px;
+    
+}
+tr{
+    tr:nth-child(even) {background-color: white;}
+}
+table{
+    width: 100%;
+}
+tr{
+    background-color: rgb(233, 169, 146);
+    color:black(214, 136, 149)
+}
+td {
+  text-align: center;
+}
+table{
+    top: 50%;
+    left: 50%;
+}
+
